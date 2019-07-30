@@ -40,7 +40,7 @@ print(r.status_code, r.reason)' >> yaman.py
 for (( i = 0; i <= $for; i++ )); do
         clear
         python yaman.py > /dev/null 2>&1 &
-        cho -e '\e[31mYoutube:Yaman Efkar (YamanEfkar Tarafından Kodlandı.)'
+        echo -e '\e[31mYoutube:Yaman Efkar (YamanEfkar Tarafından Kodlandı.)'
         echo -e '\e[31mGönderilen Sms Sayısı : '$i
         sleep 2.5
 done
